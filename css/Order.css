@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 11, 2022, 3:09:27 AM
+    Author     : NBA
+*/
+div.paging{
+padding:2px;
+margin:2px;
+text-align:left;
+font-family:Tahoma;
+font-size:12px;
+}
+div.paging a{
+padding:5px 5px 5px 5px;
+margin-right:2px;
+border:1px solid #DEDFDE;
+text-decoration:none;
+color:#3a714e;
+}	
+div.paging a:hover{
+border:1px solid #735358;
+color:#000000;
+background-color:#e4f7f5;
+}
+div.paging span.current{
+padding:6px 6px 6px 6px;
+margin-right:2px;
+border:1px solid #3a714e;
+font-weight:bold;
+background-color:#558e6a;
+color:#FFFFFF;
+}
+div.paging span.disabled{
+padding:5px 5px 5px 5px;
+margin-right:2px;
+border:1px solid #999999;
+color:#999999;
+}
+div.paging span.prevnext{
+font-weight:bold;
+}
+
+#print{
+	border-bottom: 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14pt;
+	background-color: #1abc9c;
+	color: #FFF;
+	border-radius: 2px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 5px;
+}
+#print:hover{
+	background-color: #16a085;
+	color: #fff;
+}
+
+
